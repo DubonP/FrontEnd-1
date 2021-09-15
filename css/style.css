@@ -25,4 +25,9 @@ body{
 a {
     display: block;
     color: blanchedalmond;
+    padding: 8px;
+}
+
+a:hover{
+    color: rgb(57, 71, 201);
 }

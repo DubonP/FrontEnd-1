@@ -22,12 +22,21 @@ body{
     justify-content: center;
 }
 
+.botao {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-color: aquamarine;
+    color: black;
+    background-color: rgb(179, 229, 248);
+}
+
 a {
     display: block;
     color: blanchedalmond;
     padding: 8px;
 }
 
-a:hover{
+.botao:hover{
     color: rgb(57, 71, 201);
+    background-color: rgb(122, 211, 247);
 }

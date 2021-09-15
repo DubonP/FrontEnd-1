@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-image: url(/atividade/img/removingbackgroundimages_Unsplash.webp);
+    height: 600px;
+    width: 1400PX;
+}
+
+.botao {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-color: aquamarine;
+    color: black;
+    background-color: rgb(179, 229, 248);
+}
+
+.section {
+    text-align: center;
+}

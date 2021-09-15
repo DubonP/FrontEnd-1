@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#primeira {
+    position: absolute;
+    border: 2px solid red;
+    width: 150px;
+    height: 150px;
+    padding: 35.5px;
+}
+
+#primeirafilha {
+    border: 2px solid black;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    padding: 0;
+}
+
+#segunda {
+    position: fixed;
+    border: 2px solid red;
+    width: 150px;
+    height: 150px;
+    padding: 35.5px;
+    right: 50%;
+    left: 50%;
+    bottom: 0;
+}
+
+#segundafilha {
+    border: 2px solid black;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+}
+
+#terceira {
+    position: absolute;
+    border: 2px solid red;
+    width: 150px;
+    height: 150px;
+    padding: 35.5px;
+    right: 0;
+}
+
+#terceirafilha {
+    border: 2px solid black;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+}

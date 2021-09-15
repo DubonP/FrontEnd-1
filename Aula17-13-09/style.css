@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Gol{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 250px;
+    transform: rotateY(180deg);
+}
+
+#Bola{
+    position: absolute;
+    top: 110px;
+    height: 100px;
+    padding: 22px;
+    animation: Gol 3s infinite;
+}
+
+#comemoracao{
+    position: absolute;
+    top: 50px;
+    right: 50%;
+    height: 188px;
+    animation: fantasma 4s infinite;
+}
+
+/* @keyframes imageRotate{
+    0%{
+      transform: rotate(0deg) scale(0.7);
+    }  
+    50%{
+      transform: rotate(540deg) scale(1.2);
+    } 
+    100%{
+      transform: rotate(0deg) scale(0.7);
+    } 
+} */
+
+@keyframes Gol{
+    from{
+        transform: scale(0) translateX(-180%)  rotate(5240deg);
+    }
+    to{
+        transform: scale(100%) translateX(1850%) rotate(0deg);
+    }
+}
+
+@keyframes fantasma {
+    0% { transform: rotate(0deg); opacity: 0%;  }
+    25% { /* transform: rotate(180deg); */ opacity: 50%; }
+    100% { transform: rotate(730deg); opacity: 100%;  }
+}
+
+.background {
+    background-image: url(/atividade/img/removingbackgroundimages_Unsplash.webp);
+    height: 600px;
+    width: 1400PX;
+}
+
+.botao {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-color: aquamarine;
+    color: black;
+    background-color: rgb(179, 229, 248);
+}
+
+.section {
+    text-align: center;
+}

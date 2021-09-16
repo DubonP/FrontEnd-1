@@ -52,6 +52,7 @@ a {
 .botao:hover{
     color: rgb(57, 71, 201);
     background-color: rgb(103, 205, 245);
+    cursor: pointer;
 }
 
 .youtube{

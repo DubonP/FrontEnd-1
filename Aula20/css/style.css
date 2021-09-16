@@ -30,6 +30,17 @@ main{
     grid-template-rows: 50% 50%;
 }
 
+main img{
+    height: 600px;
+    overflow: hidden;
+    border-radius: 25px;
+    filter: brightness(85%);
+}
+
+main img:hover{
+    filter: brightness(100%);
+}
+
 #principal{
     text-align: center;
     background-color: rgb(171, 249, 250);
@@ -38,22 +49,24 @@ main{
 }
 
 #menu{
-    background-color: rgb(206, 204, 204);
+    background-color: rgb(44, 46, 158);
     text-align: left;;
     grid-row-start: 1;
     grid-row-end: 3;
 }
 
 .btn{
-    background-color: rgb(206, 204, 204);
+    background-color: rgb(44, 46, 158);
     height: 55px;
     width: 100%;
     cursor: pointer;
-    border-color: rgb(206, 204, 204);
+    border-color: rgb(44, 46, 158);
+    font-size: 17px;
+    color: rgb(255, 255, 255);
 }
 
 .btn:hover{
-    font-size: 15px;
+    font-size: 19px;
 }
 
 

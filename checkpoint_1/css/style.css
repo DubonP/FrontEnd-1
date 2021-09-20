@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 6px 6px 6px 6px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Noto+Sans+JP:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;900&display=swap');
+
+body{
+    background-color: rgb(192, 196, 250);
+}
+
+#banner{
+    position: initial;
+    background-image: url(https://www.abagrp.org.br/uploads/pagina/elemento/campo/2019/01/sj3dQCDsGkyLRF6g/praca-matriz_1920x540.jpg);
+    text-align: center;
+    height: 250px;
+
+  }
+
+.youtube{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+  }
+
+.instagram{
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 50px;
+}
+
+header {
+    background-color: rgb(92, 84, 247);
+    padding: 15px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.cidade {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.videoyoutube{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#Curiosidades{
+    text-align: center;
+}
+

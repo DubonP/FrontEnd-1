@@ -1,0 +1,91 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CheckPoint2</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <img src="./img/bola.png" alt="" class="bola" />
+    <section class="form">
+      <h1>Rio de janeiro</h1>
+
+      <form action="">
+        <!-- input nome -->
+        <div class="input">
+          <label for="name">🧑 Nome:</label>
+          <input type="text" max="100" required id="name" />
+        </div>
+
+        <!-- input email -->
+        <div class="input">
+          <label for="E-mail">📩 E-mail:</label>
+          <input id="E-mail" type="text" required />
+        </div>
+
+        <!-- input telefone -->
+        <div class="input">
+          <label for="Telefone">📞 Telefone:</label>
+          <input
+            id="Telefone"
+            type="number"
+            required
+            placeholder="(11) 9 5254-5527"
+          />
+        </div>
+
+        <!-- input data de nascimento -->
+        <div class="input">
+          <label for="nascimento">📅 Data de Nascimento:</label>
+          <input id="nascimento" type="date" required />
+        </div>
+
+        <label for="" style="font-weight: bold">🔞 Maioridade:</label>
+
+        <!-- input maioridade -->
+        <div class="checkbox">
+          <input
+            type="radio"
+            id="maioridade"
+            name="maioridade"
+            value="maioridade"
+            checked
+          />
+          <label for="maioridade">Sim</label><br />
+        </div>
+        <div class="checkbox">
+          <input type="radio" id="Negativo" name="maioridade" />
+          <label for="Negativo">Não</label>
+        </div>
+
+        <!-- input ponto de interesse -->
+        <div class="input">
+          <label for="ponto">🚏 Ponto de interesse</label>
+          <select name="ponto-de-interessse" id="ponto">
+            <option value="teresopolis">Teresópolis</option>
+            <option value="arraial-do-cabo">Arraial do Cabo</option>
+            <option value="buzios">Búzios</option>
+            <option value="petropolis">Petrópolis</option>
+            <option value="nova-friburgo">Nova Friburgo</option>
+          </select>
+        </div>
+
+        <!-- interesse na cidade -->
+        <div class="input">
+          <label for="interesse-na-cidade">🧠 Interesse na cidade</label>
+          <select name="interesse-na-cidade" id="interesse-na-cidade" multiple>
+            <option value="turista">Turista</option>
+            <option value="residente">Residente</option>
+            <option value="estudante">Estudante</option>
+          </select>
+        </div>
+
+        <section class="buttons">
+          <button type="reset">Cancelar</button>
+          <button type="submit">Enviar</button>
+        </section>
+      </form>
+    </section>
+  </body>
+</html>

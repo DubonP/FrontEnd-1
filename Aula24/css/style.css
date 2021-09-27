@@ -1,0 +1,11 @@
+.navbar{
+    background-color: rgb(156, 175, 228);
+    color: black;
+}
+
+#banner{
+    background-image: url(http://revistapegn.globo.com/Revista/Pegn/foto/0,,40618970,00.jpg);
+    height: calc(100vh -56px);
+    width: 100%;
+}
+
